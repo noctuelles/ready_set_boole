@@ -16,6 +16,7 @@ pub fn multiplier(a: u32, b: u32) -> u32 {
 mod tests {
     use super::multiplier;
     use rand::{thread_rng, Rng};
+
     const NBR_TEST: usize = 1_000_000;
 
     #[test]
